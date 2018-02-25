@@ -6,5 +6,5 @@ class ContactForm(Form):
     name = StringField("Name")
     email = StringField("Email")
     subject = StringField("Subject")
-    message = StringField("Message")
+    message = TextAreaField("Message")
     submit = SubmitField("Send")
